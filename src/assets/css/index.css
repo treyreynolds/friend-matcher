@@ -1,0 +1,81 @@
+/* Main reset CSS **************/
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: calc(100% - 50px);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100%;
+}
+
+#root > div:first-child{
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Avenir', sans-serif;
+  color: #4a4a4a;
+  text-align: left;
+}
+
+p {
+  font-family: 'Open Sans', serif;
+}
+
+
+input {
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+select {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  font-size: 1.1em;
+  background: #FFF;
+  border: 1px solid #ccc;
+  color: #222222;
+  padding: 10px 30px 10px 10px;
+  text-align: left;
+  border-radius: 0;
+  background: url("../images/down-arrow.png") no-repeat 96% / 20px ;
+}
+
+label {
+  color: #999;
+  margin-bottom: 10px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #CCC;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #CCC;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #CCC;
+}
+
+
+.react-rater-star {
+  color: #DDD;
+  font-size: 2.5em;
+  margin: 0 5px;
+}
+
+.react-rater-star.will-be-active {
+  color: #fdcb6e;
+}

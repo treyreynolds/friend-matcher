@@ -1,0 +1,9 @@
+node_modules/
+webclient/node_modules
+graphql-server/node_modules
+npm-debug.log
+.idea/
+.DS_Store
+profiles.json
+new-job-titles.json
+new-skills.json

@@ -1,0 +1,36 @@
+{
+  "name": "friend-matcher",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-pro-light": "^5.0.13",
+    "@fortawesome/fontawesome-pro-regular": "^5.0.13",
+    "@fortawesome/react-fontawesome": "^0.0.20",
+    "brain.js": "^1.2.1",
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.10",
+    "polished": "^1.9.2",
+    "react": "^16.3.2",
+    "react-autosuggest": "^9.3.4",
+    "react-dom": "^16.3.2",
+    "react-rater": "^0.4.8",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.2.6"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.72.0",
+    "flow-runtime": "^0.17.0",
+    "react-app-rewire-styled-components": "^3.0.2",
+    "react-app-rewired": "^1.5.2"
+  }
+}
